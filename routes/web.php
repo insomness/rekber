@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/', 'Fronts\HomeController@index')->name('home');
+Route::get('/transactions', 'Fronts\TransactionController@index')->name('transaction');

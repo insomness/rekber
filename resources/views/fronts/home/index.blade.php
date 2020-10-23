@@ -5,7 +5,6 @@
     @include('fronts.home.services')
     @include('fronts.home.alur_rekber')
     @include('fronts.home.payments')
-    @include('fronts.home.form')
     @include('fronts.home.faq')
 </main>
 @endsection

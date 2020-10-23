@@ -21,9 +21,27 @@
           <li class="{{Request::is('/') ? 'active' : ''}}"><a href="#hero">Home</a></li>
           <li class="{{Request::is('#services') ? 'active' : ''}}"><a href="#services">Layanan</a></li>
           <li class="{{Request::is('#alur-rekber') ? 'active' : ''}}"><a href="#alur-rekber">Alur Rekber</a></li>
-          <li class="{{Request::is('#transaction') ? 'active' : ''}}"><a href="#transaction">Transaksi</a></li>
           <li class="{{Request::is('#faq') ? 'active' : ''}}"><a href="#faq">FAQ</a></li>
+          @guest
           <li class="{{Request::is('login') ? 'active' : ''}}"><a href="login">Masuk/Daftar</a></li>
+          @else
+          <li class="drop-down">
+            <a href="javascript:void(0)">{{ Auth::user()->full_name }}</a>
+            <ul>
+                <li>
+                    <a class="dropdown-item" href="{{ route('logout') }}"
+                    onclick="event.preventDefault();
+                                    document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form>
+                </li>
+            </ul>
+        </li>
+          @endguest
         </ul>
       </nav><!-- .main-nav-->
 

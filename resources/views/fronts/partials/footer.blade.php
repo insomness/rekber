@@ -2,7 +2,7 @@
     <div class="container">
       <div class="credits">
           <div class="copyright">
-              All Made Received by Rekber
+            © Rekber {{date('Y')}}
           </div>
         <!--
         All the links in the footer should remain intact.
