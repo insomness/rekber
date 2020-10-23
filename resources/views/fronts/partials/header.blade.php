@@ -23,6 +23,7 @@
           <li class="{{Request::is('#alur-rekber') ? 'active' : ''}}"><a href="#alur-rekber">Alur Rekber</a></li>
           <li class="{{Request::is('#transaction') ? 'active' : ''}}"><a href="#transaction">Transaksi</a></li>
           <li class="{{Request::is('#faq') ? 'active' : ''}}"><a href="#faq">FAQ</a></li>
+          <li class="{{Request::is('login') ? 'active' : ''}}"><a href="login">Masuk/Daftar</a></li>
         </ul>
       </nav><!-- .main-nav-->
 

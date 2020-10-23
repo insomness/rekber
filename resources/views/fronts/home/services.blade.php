@@ -21,19 +21,19 @@
             </p>
 
             <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
-              <i class="fa fa-lock" style="color: #0e2349;"></i>
+              <i class="fa fa-lock fa-2x" style="color: #0e2349;"></i>
               <h4>Aman Dan Terjamin</h4>
               <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>
             </div>
 
             <div class="features clearfix" data-aos="fade-up" data-aos-delay="200">
-              <i class="fa fa-usd" style="color: #0e2349;"></i>
+              <i class="fa fa-usd fa-2x" style="color: #0e2349;"></i>
               <h4>Biaya Yang Murah</h4>
               <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>
             </div>
 
             <div class="features clearfix" data-aos="fade-up" data-aos-delay="300">
-              <i class="fa fa-coffee" style="color: #0e2349;"></i>
+              <i class="fa fa-coffee fa-2x" style="color: #0e2349;"></i>
               <h4>Cepat Dan Nyaman</h4>
               <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>
             </div>
